@@ -16,7 +16,7 @@ int main() {
     scanf("%d", &pessoa1.idade); // Lê a idade da primeira pessoa
 
     // Leitura dos dados da segunda pessoa
-    printf("Digite a inicial do nome da segunda pessoa: "); // Solicita a inicial do nome
+    printf("Digite o nome da segunda pessoa: "); // Solicita o nome
     scanf(" %c", &pessoa2.nome[0]); // Lê um caractere para o nome da segunda pessoa (armazenado na primeira posição do array)
     printf("Digite a idade da segunda pessoa: "); // Solicita a idade
     scanf("%d", &pessoa2.idade); // Lê a idade da segunda pessoa
