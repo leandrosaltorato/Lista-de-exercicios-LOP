@@ -2,7 +2,7 @@
 
 // Definição da estrutura Pessoa
 struct Pessoa {
-    char nome[20]; // Array de caracteres para armazenar a inicial da pessoa
+    char nome[20]; // Array de caracteres para armazenar a nome da pessoa
     int idade;     // Inteiro para armazenar a idade da pessoa
 };
 
@@ -10,7 +10,7 @@ int main() {
     struct Pessoa pessoa1, pessoa2; // Declaração de duas variáveis do tipo Pessoa
 
     // Leitura dos dados da primeira pessoa
-    printf("Digite a inicial do nome da primeira pessoa: "); // Solicita a inicial do nome
+    printf("Digite o nome da primeira pessoa: "); // Solicita o nome
     scanf(" %c", &pessoa1.nome[0]); // Lê um caractere para o nome da primeira pessoa (armazenado na primeira posição do array)
     printf("Digite a idade da primeira pessoa: "); // Solicita a idade
     scanf("%d", &pessoa1.idade); // Lê a idade da primeira pessoa
