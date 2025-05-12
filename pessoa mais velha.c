@@ -11,13 +11,13 @@ int main() {
 
     // Leitura dos dados da primeira pessoa
     printf("Digite o nome da primeira pessoa: "); // Solicita o nome
-    scanf(" %c", &pessoa1.nome[0]); // Lê um caractere para o nome da primeira pessoa (armazenado na primeira posição do array)
+    scanf(" %c", &pessoa1.nome[0]); // Lê o nome da primeira pessoa (armazenado na primeira posição do array)
     printf("Digite a idade da primeira pessoa: "); // Solicita a idade
     scanf("%d", &pessoa1.idade); // Lê a idade da primeira pessoa
 
     // Leitura dos dados da segunda pessoa
     printf("Digite o nome da segunda pessoa: "); // Solicita o nome
-    scanf(" %c", &pessoa2.nome[0]); // Lê um caractere para o nome da segunda pessoa (armazenado na primeira posição do array)
+    scanf(" %c", &pessoa2.nome[0]); // Lê o nome da segunda pessoa (armazenado na primeira posição do array)
     printf("Digite a idade da segunda pessoa: "); // Solicita a idade
     scanf("%d", &pessoa2.idade); // Lê a idade da segunda pessoa
 
